@@ -4,11 +4,10 @@ class Me: Developer, iOS {
     var username = "uuidev"
     
     var technologies = [.Xcode, .Swift, .UIKit, .SwiftUI]
-    var platforms: [.iOS, iPadOS, .macOS, .Multiplatform]
+    var platforms = [.iOS, iPadOS, .macOS, .Multiplatform]
     
     func code() -> UsefulThings {
         UsefulThings(
-            "Something useful",
             "I am always happy to create something beautiful and useful!"
         )
     }
