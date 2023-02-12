@@ -5,6 +5,21 @@ class Me: Developer, iOS {
     
     var technologies = [.Xcode, .Swift, .UIKit, .SwiftUI]
     var platforms: [.iOS, iPadOS, .macOS, .Multiplatform]
+    
+    func code() -> UsefulThings {
+        UsefulThings(
+            "Something useful",
+            "I am always happy to create something beautiful and useful!"
+        )
+    }
+    
+    func drinkCoffee() {
+        print("My favourite coffee is "banana raf")
+    }
+    
+    func sleep() {
+        try await Task.sleep(28800)
+    }
 }
 
 protocol Developer {
